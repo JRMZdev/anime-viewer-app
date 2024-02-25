@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function Home() {
+const Home = () => {
   const [animeData, setAnimeData] = useState([]);
   const [searchWord, setSearchWord] = useState('');
   const [recommendation, setRecommendation] = useState([]);
